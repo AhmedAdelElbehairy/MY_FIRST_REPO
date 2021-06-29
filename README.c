@@ -121,4 +121,15 @@ Before starting let's specify the required tasks and the work flow
 //		/*some file modifications*/
 //		git add . 
 //		git commit -m "COMMIT AFTER BRANCHING"
-//		commands: git push --set-upstream https://github.com/AhmedAdelElbehairy/MY_FIRST_REPO.git feature1
+//		git push --set-upstream https://github.com/AhmedAdelElbehairy/MY_FIRST_REPO.git feature1
+
+/***********branch from the remote repo and commit code on your branch************/
+// commands: git add .
+//		git commit -m "COMMIT BEFORE MERGING - EOD"
+//		git checkout master
+//		git pull
+//		git checkout feature1
+//		git merge master
+//		git checkout master
+//		git merge feature1
+//		git push

@@ -37,3 +37,39 @@ Before starting let's specify the required tasks and the work flow
 //		git commit -m "OUR FIRST COMMIT OCCURS HERE"
 
 /***********our first local commit occurs here************/
+
+/***********Try all the discussed commands on your local repo************/
+// GIT BASIC COMMANDS: git init (already tried)
+//		       git config --global user.name/email (already tried)
+//		       git add (already tried)
+//		       git commit -m (already tried)
+//		       git restored <file name> 
+//		       git restored --staged <file name>
+//		       git branch <branch name>
+//		       git checkout <branch name>
+//		       git revert <commit name>
+//		       git status (already tried)
+//		       git log (already tried)
+//		       git clone <repo URL>
+//		       git push/pull
+
+// trying git restore --staged <file name>
+//	 status before trying:
+//		$ git status
+//		On branch master
+//		Changes to be committed:
+//		  (use "git restore --staged <file>..." to unstage)
+//		        modified:   README.md
+//	status after
+//		$ git status
+//		On branch master
+//		Changes not staged for commit:
+//		  (use "git add <file>..." to update what will be committed)
+//		  (use "git restore <file>..." to discard changes in working directory)
+//		        modified:   README.md
+//
+//		no changes added to commit (use "git add" and/or "git commit -a")
+
+// trying git restore <file name>
+//       status before trying:
+

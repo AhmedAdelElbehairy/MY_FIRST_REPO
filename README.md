@@ -49,7 +49,7 @@ Before starting let's specify the required tasks and the work flow
 //		       git checkout <branch name>
 //		       git revert <commit name>
 //		       git status (already tried)
-//		       git log (already tried)
+//		       git log 
 //		       git clone <repo URL>
 //		       git push/pull
 
@@ -72,4 +72,40 @@ Before starting let's specify the required tasks and the work flow
 
 // trying git restore <file name>
 //       status before trying:
+//		$ git status
+//		On branch master
+//		Changes to be committed:
+//		  (use "git restore --staged <file>..." to unstage)
+//		        modified:   README.md
+//
+//		Changes not staged for commit:
+//		  (use "git add <file>..." to update what will be committed)
+//		  (use "git restore <file>..." to discard changes in working directory)
+//		        modified:   README.md
+//      status after trying:
+//		$ git status
+//		On branch master
+//		Changes to be committed:
+//		  (use "git restore --staged <file>..." to unstage)
+//		        modified:   README.md
 
+/***********our second local commit occurs here************/
+
+// trying get log
+//	output:
+//		$ git log
+//		commit c4ee66979374b63a796e22858a983147c09e3bdf (HEAD -> master)
+//		Author: Ahmed Adel <ahmedelbehairy1996@gmail.com>
+//		Date:   Tue Jun 29 23:04:28 2021 +0200
+//		
+//		    OUR SECOND COMMIT OCCURS HERE
+//
+//		commit 4ecf14f55937f8d72bda7ca99cdb919ebea9bf00
+//		Author: Ahmed Adel <ahmedelbehairy1996@gmail.com>
+//		Date:   Tue Jun 29 22:33:29 2021 +0200
+//		
+//		    OUR FIRST COMMIT OCCURS HERE
+
+//reset will be tried in the following tasks
+
+/***********our third local commit occurs here************/

@@ -123,7 +123,7 @@ Before starting let's specify the required tasks and the work flow
 //		git commit -m "COMMIT AFTER BRANCHING"
 //		git push --set-upstream https://github.com/AhmedAdelElbehairy/MY_FIRST_REPO.git feature1
 
-/***********branch from the remote repo and commit code on your branch************/
+/***********merge your code using git work flow************/
 // commands: git add .
 //		git commit -m "COMMIT BEFORE MERGING - EOD"
 //		git checkout master

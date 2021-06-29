@@ -109,3 +109,13 @@ Before starting let's specify the required tasks and the work flow
 //reset will be tried in the following tasks
 
 /***********our third local commit occurs here************/
+
+/***********push your local repo to a remote repo on github************/
+// commands: git push --set-upstream https://github.com/AhmedAdelElbehairy/MY_FIRST_REPO.git master
+
+/***********branch from the remote repo and commit code on your branch************/
+// commands: git add .
+//		git commit -m "COMMIT BEFORE BRANCHING"
+//		git branch feature1
+//		git checkout feature1
+
